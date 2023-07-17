@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+// import Apipost from "./Apipost";
+import "./App.css";
+// import UserFetch from "./UserFetch";
+// import Parent from "./Parent;
+// import Axioss from "./Axioss";
+import Comprendercheck from "./Comprendercheck";
+import Ref from "./Ref";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Parent>Helloe</Parent> */}
+      {/* <UserFetch /> */}
+      {/* <Apipost /> */}
+      {/* <Comprendercheck /> */}
+      <Ref />
     </div>
   );
 }
